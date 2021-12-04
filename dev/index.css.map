@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.css"],
+  "sourcesContent": ["body {\r\n  display: grid;\r\n  place-content: center;\r\n  height: 100vh;\r\n  margin: 0;\r\n  padding: 0;\r\n  background-color: hsl(0, 0%, 100%);\r\n  color: hsl(0, 0%, 25%);\r\n}\r\n"],
+  "mappings": ";AAAA;AACE;AACA;AACA;AACA;AACA;AACA;AACA;AAAA;",
+  "names": []
+}

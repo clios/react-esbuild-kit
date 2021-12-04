@@ -3,15 +3,15 @@ require('esbuild')
     bundle: true,
     entryPoints: ['src/index.jsx'],
     minify: false,
-    outfile: 'dist/index.js',
+    outfile: 'dev/index.js',
     sourcemap: true,
     watch: true
   })
   .catch(() => process.exit(1))
 
-require('fs-extra').copy('public', 'dist', (err) => {
+require('fs-extra').copy('public', 'dev', (err) => {
   if (err) return console.error(err)
-  console.log('public files was copied to dist folder')
+  console.log('public files was copied to dev folder')
 })
 
 require('live-server').start({
@@ -19,5 +19,5 @@ require('live-server').start({
   host: 'localhost',
   open: true,
   port: 80,
-  root: 'dist'
+  root: 'dev'
 })
