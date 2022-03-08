@@ -2,6 +2,8 @@
 
 A simple starter kit for react using esbuild as bundler.
 
+_Note: Rename your repository and remove **.git** folder, then make your own initial commit._
+
 ## How to use for development?
 
 1. Clone repository.
